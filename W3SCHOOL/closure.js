@@ -1,4 +1,5 @@
-// Closure lern
+// Closure lern 
+// this is closure .
 
 function fun1() {
   let a = 5;
