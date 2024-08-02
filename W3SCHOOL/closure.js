@@ -1,4 +1,4 @@
-// Closure
+// Closure lern
 
 function fun1() {
   let a = 5;
