@@ -21,12 +21,14 @@ const newNums2 = myNums2.filter( (num) => {
 
 
 const book =[
-    {title:'book one', genre:'History',publish:1992, edition : 2004},
-    {title:'book two', genre:'Hindi',publish:1993, edition : 2003},
+    {title:'book one', genre:'History',publish:1992, edition : 2000},
+    {title:'book two', genre:'Hindi',publish:1993, edition : 1990},
     {title:'book three', genre:'Science',publish:1993, edition : 2002},
     {title:'book four', genre:'English',publish:1992, edition : 2004},
     {title:'book five', genre:'English',publish:1995, edition : 2001}
 ]
 
-const newBook = book.filter( (bk) => bk.genre === 'English' )
+let newBook = book.filter( (bk) => bk.genre === 'English' )
+newBook = book.filter ((bk) => { 
+    return bk.edition >= 2000 && bk.genre === "History" })
 console.log(newBook);
