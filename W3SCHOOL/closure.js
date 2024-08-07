@@ -16,3 +16,4 @@ function fun1() {
 }
 const abc = fun1();
 abc();
+//hi
